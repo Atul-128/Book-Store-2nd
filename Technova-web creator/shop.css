@@ -1,0 +1,273 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+html body
+{
+	height:100%;
+	width:100%;
+	background-color:rgb(195, 199, 200);	
+}
+.nav-bar{
+	height:80px;
+	width:100%;
+	display:flex;
+	position:fixed;
+	text-align:center;
+	justify-content:space-between;
+	border-bottom:1px solid gray;
+    background-color: black;
+}
+.nav-h1{
+	color:sienna;
+	font-size:30px;
+	margin-left:10px;
+}
+.nav-option
+{
+	margin-top:20px;
+	margin-left:100px;
+}
+.nav-option a{
+	font-size:30px;
+	gap:25px;
+	margin-left:70px;
+	text-decoration:none;
+	color:rgb(250, 245, 245);
+}
+.nav-option a:hover
+{
+	color:sienna;
+	border-bottom:4px solid white;
+}
+.nav-option button{
+	height: 40px;
+	width:80px;
+	margin-right: 30px;
+	background-color:sienna;
+	color:black;
+	border-radius: 20px;
+	border:none;
+}
+.hero{
+    height:80px;
+    width:100%;
+}
+.shops{
+	height:600px;
+	width:100%;	
+}
+.shops-h1{
+	font-size:25px;
+	color:black;
+	align-items:center;
+	justify-content:center;
+	display:flex;
+	padding:20px;
+}
+.shops-h1 span{
+	color:sienna;
+}
+.shop-boxes
+{
+	height:500px;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+	
+}
+.shop-box1{
+	height:350px;
+	width:250px;
+	background-color:white;
+	margin-left:60px;
+	border-radius:20px;
+}
+.image1{
+	height:250px;
+	width:250px;
+	background-color:gray;
+	background-image:url(book7.png);
+	background-size:cover;
+	border-radius:20px;
+	border-bottom:2px solid white;
+}
+.shop-boxh3{
+	color:black;
+	margin-left:30px;
+}
+.shop-icon
+{
+	color:orange;
+	font-size:20px;
+	margin-left:50px;
+}
+.shop-btn button{
+	height:30px;
+	width:80px;
+	background-color:sienna;
+	color:white;
+	border:none;
+	border-radius:10px;
+	margin-left:80px;
+	margin-top:10px;
+}
+.shop-box2{
+	height:350px;
+	width:250px;
+	background-color:white;
+	border-radius:20px;
+}
+.image2{
+	height:250px;
+	width:250px;
+	background-color:gray;
+	background-image:url(book6.png);
+	background-size:cover;
+	border-radius:20px;
+	border-bottom:2px solid white;
+}
+.shop-box3{
+	height:350px;
+	width:250px;
+	background-color:white;
+	margin-right:60px;
+	border-radius:20px;
+}
+.image3{
+	height:250px;
+	width:250px;
+	background-color:gray;
+	background-image:url(modi2.png);
+	background-size:cover;
+	border-radius:20px;
+	border-bottom:2px solid white;
+}
+.book-shops{
+	height:600px;
+	width:100%;
+}
+.shop-box4{
+	height:350px;
+	width:250px;
+	background-color:rgb(246, 243, 241);
+	margin-left:60px;
+	border-radius:20px;
+}
+.image4{
+	height:250px;
+	width:250px;
+	background-color:gray;
+	background-image:url(book5.png);
+	background-size:cover;
+	border-radius:20px;
+	border-bottom:2px solid white;
+}
+.shop-boxh3{
+	color:black;
+	margin-left:40px;
+}
+.shop-icon
+{
+	color:orange;
+	font-size:20px;
+	margin-left:60px;
+}
+.shop-btn button{
+	height:30px;
+	width:80px;
+	background-color:rgb(24, 20, 19);
+	color:white;
+	border:none;
+	border-radius:10px;
+	margin-left:80px;
+	margin-top:10px;
+}
+.shop-box5{
+	height:350px;
+	width:250px;
+	background-color:rgb(233, 230, 228);
+	border-radius:20px;
+}
+.image5{
+	height:250px;
+	width:250px;
+	background-color:gray;
+	background-image:url(book4.png);
+	background-size:cover;
+	border-radius:20px;
+	border-bottom:2px solid white;
+}
+.shop-box6{
+	height:350px;
+	width:250px;
+	background-color:rgb(240, 237, 236);
+	margin-right:60px;
+	border-radius:20px;
+}
+.image6{
+	height:250px;
+	width:250px;
+	background-color:gray;
+	background-image:url(book3.png);
+	background-size:cover;
+	border-radius:20px;
+	border-bottom:2px solid white;
+}
+
+.footer-panel
+{
+	background-color:#37475a;
+	color:white;
+	height:50px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:0.85rem;
+}
+.foot-panel2
+{
+	height:250px;
+	background-color:#222f3d;
+	color:white;
+	display:flex;
+	justify-content:space-evenly;
+}
+ul
+{
+	margin-top:15px;
+}
+ul a
+{
+	display:block;
+	font-size:0.85rem;
+	margin-top:10px;
+	color:#dddddd;
+}
+.foot-panel3
+{
+	height:80px;
+	background-color:#222f3d;
+	border-top:0.5px solid white;
+	justify-content:center;
+	align-items:center;
+	display:flex;
+}
+.h2
+{
+	font-size: 25px;
+	color:white;
+}
+.foot-panel4
+{
+	background-color:#0f1111;
+	color:white;
+	height:80px;
+	font-size:0.8rem;
+	text-align:center;
+	}
+.page
+{
+	padding:20px;
+}
